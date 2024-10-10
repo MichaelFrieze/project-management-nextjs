@@ -1,7 +1,12 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <div>
-      <h1 className="text-center text-4xl font-bold">Home Page</h1>
+      <Button variant={"ghost"} size={"lg"}>
+        Click Me
+      </Button>
+      <p className="font-semibold text-red-500">Mike Frieze</p>
     </div>
   );
 }
